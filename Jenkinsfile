@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'git checkout'
+                echo 'git checkouut'
                 git branch: 'main', url: 'https://github.com/Krishvenky08/code.git'
              }
          }
